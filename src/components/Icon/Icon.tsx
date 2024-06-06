@@ -60,7 +60,7 @@ export const Icon: FC<IconProps> = ({
 
   return (
     <span
-      data-test-id={dataTestId}
+      data-testid={dataTestId}
       aria-hidden={ariaHidden}
       className={iconClassNames}
       id={id}
